@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  zoom: 110%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.heading h1 {
+  margin: 20px;
+  padding: 0;
+  background-image: linear-gradient(black, blueviolet);
+  text-align: center;
+  color: aliceblue;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.buttons input,
+.buttons select {
+  border: 3px blueviolet solid;
+  background-color: black;
+  color: seashell;
+  text-align: center;
+  min-width: 10vh;
+  min-height: 7vh;
+}
+
+.buttons input {
+  min-width: 12%;
+  border-radius: 12px;
+}
+
+.buttons select {
+  min-height: 8vh;
+  min-width: 15%;
+  border-radius: 12px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  border: 3px blueviolet solid;
+  border-radius: 12px;
+  margin: 12px 0px 0px 0px;
+  padding: 0;
+  max-height: 20%;
+  width: 80%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contentimg img {
+  height: 260px;
+  width: 260px;
+  padding: 2px;
+}
+
+.contenttext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

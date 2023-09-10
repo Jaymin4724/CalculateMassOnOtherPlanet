@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Weight on planets of our Solar System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="galaxy.gif">
+    <div class="heading">
+        <h1> Calculate a Weight of an object on a planet</h1>
+    </div>
+    <div class="buttons">
+        <input type="number" name="mass" id="earthWeight" placeholder="Enter Mass">
+        <select name="planets" id="planetSelect" style="color: gray;">
+            <option value="" disabled selected hidden>---select planet---</option>
+            <option value="moon">moon</option>
+            <option value="mars">mars</option>
+            <option value="jupiter">jupiter</option>
+            <option value="saturn">saturn</option>
+            <option value="venus">venus</option>
+            <option value="mercury">mercury</option>
+            <option value="uranus">uranus</option>
+            <option value="neptune">neptune</option>
+            <option value="pluto">pluto</option>
+        </select>
+        <input type="submit" value="Calculate" style="border-radius: 5px; min-width: 12%;" onclick="calculateWeight()">
+    </div>
+
+    <div class="main">
+        <div class="content">
+            <div class="contentimg">
+                <img src="earth.png">
+            </div>
+            <div class="contenttext">
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
